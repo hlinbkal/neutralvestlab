@@ -23,29 +23,15 @@ void sum_pair() {
     (void)total;
 }
 
-void is_palindrome() {
-    std::string text = "level";
-    bool palindrome = true;
-    for (std::size_t i = 0; i < text.size() / 2; ++i) {
-        if (text[i] != text[text.size() - 1 - i]) { palindrome = false; break; }
-    }
-    (void)palindrome;
-}
-
 extern "C" int radiant_crescent();
-extern "C" void ivory_lantern();
-extern "C" void verdant_ripple();
-extern "C" void misty_beacon();
-extern "C" void golden_cove();
+extern "C" void sable_beacon();
+extern "C" void misty_prism();
 
 int main() {
     collect_triples();
     factorial_sum();
     sum_pair();
-    is_palindrome();
-    ivory_lantern();
-    verdant_ripple();
-    misty_beacon();
-    golden_cove();
+    sable_beacon();
+    misty_prism();
     return radiant_crescent();
 }
